@@ -26,7 +26,7 @@ video {
 }
 .subcontent {
   background-color: rgb(6, 6, 26);
-  padding-left: 50px;
+  /* padding-left: 50px; */
   padding-top: 40px;
   color: white;
   text-align: center;
@@ -49,7 +49,7 @@ video {
   border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 10px;
   background-color: green;
 }
 .subcontent img {
@@ -67,5 +67,11 @@ video {
   .content p {
     width: 100%;
   }
+  .intro{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: centern;
+  }
+
  
 }

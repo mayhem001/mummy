@@ -10,6 +10,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.664);
   color: white;
   min-height: 50px;
+  padding: 0 5px 0 5px;
   
   
   
@@ -32,6 +33,7 @@ header{
 @media (max-width:600px) {
   nav{
     max-width: 100%;
+    padding: 0 5px 0 5px;
   }
 }
 

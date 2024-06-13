@@ -36,3 +36,9 @@
   padding: 8px;
   cursor: pointer;
 }
+@media (max-width:600px){
+  .formInput{
+    padding: 0 10px 0 10px;
+
+  }
+}
