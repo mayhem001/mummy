@@ -1,0 +1,14 @@
+.about{
+  text-align: center;
+  /* background-color: rgba(12, 14, 31, 0.144); */
+  height: 100vh;
+  padding-top: 100px;
+}
+.about img{
+  height: 300px;
+  max-width: 450px;
+}
+.about p{
+  width: 400px;
+  margin: 0 auto;
+}
