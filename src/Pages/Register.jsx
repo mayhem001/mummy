@@ -7,9 +7,9 @@ const Register = () => {
   const [author, setAuthor] = useState("male");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(title, body, author);
-    // console.log(form);
-  };
+    console.log =  {title, body, author};
+    // console.log(formInput);
+  }
   return (
     <div className="formInput">
       <h2>Enquiry</h2>
@@ -30,8 +30,8 @@ const Register = () => {
         ></textarea>
         <label>Form author:</label>
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-          <option value="male">male</option>
-          <option value="female">female</option>
+          <option value="male">sign in</option>
+          <option value="female">login</option>
         </select>
         <button>Submit</button>
         {/* <p>{title}</p> */}

@@ -26,10 +26,11 @@ video {
 }
 .subcontent {
   background-color: rgb(6, 6, 26);
-  /* padding-left: 50px; */
   padding-top: 40px;
   color: white;
   text-align: center;
+  
+  
 }
 .subcontent p {
   width: 300px;
@@ -40,7 +41,6 @@ video {
 .subcontent h1 {
   font-size: 40px;
   font-weight: bold;
-  padding-left: 30px;
 }
 .subcontent button {
   width: 200px;
@@ -58,6 +58,15 @@ video {
   display: flex;
   margin: 0 auto;
   opacity: 0.7;
+  border-radius: 50px;
+}
+.intro{
+  margin-top: -5px;
+}
+
+.footer{
+  background-color: black;
+  color: blueviolet
 }
 @media  (max-width: 600px) {
   .content h1 {
@@ -70,7 +79,8 @@ video {
   .intro{
     margin: 0 auto;
     justify-content: center;
-    align-items: centern;
+    align-items: center;
+    margin-top: -5px;
   }
 
  
